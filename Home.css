@@ -41,6 +41,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   font-size: 1.5rem;
   animation-duration: 2500ms;
+  font-weight: 700;
   margin: 20px 60px 0;
 }
 
@@ -56,8 +57,8 @@
   width: 497px;
   height: 497px;
   background-image: url("images/front__.png");
-  background-position: 22.68% 50%;
-  animation-duration: 1250ms;
+  background-position: 20.3% 50%;
+  animation-duration: 2000ms;
   margin: 36px auto 0;
 }
 
@@ -99,8 +100,9 @@
   }
 
   .u-section-1 .u-image-1 {
-    width: 451px;
-    height: 451px;
+    background-position: 23.87% 50%;
+    width: 486px;
+    height: 486px;
   }
 }
 
@@ -147,8 +149,8 @@
   }
 
   .u-section-1 .u-image-1 {
-    width: 335px;
-    height: 335px;
+    width: 372px;
+    height: 372px;
   }
 }
 
@@ -179,11 +181,6 @@
 
   .u-section-1 .u-layout-cell-2 {
     min-height: 576px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 503px;
-    height: 503px;
   }
 }
 
@@ -218,8 +215,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: auto;
-    margin-top: -39px;
+    height: 340px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -339,7 +335,7 @@
   text-transform: uppercase;
   font-size: 0.875rem;
   animation-duration: 1000ms;
-  margin: -40px 512px 0 auto;
+  margin: -40px auto 0 469px;
   padding: 9px 22px;
 }
 
@@ -413,7 +409,6 @@
   }
 
   .u-section-2 .u-btn-3 {
-    margin-right: auto;
     margin-left: 402px;
   }
 
@@ -439,7 +434,7 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1351px;
+    min-height: 1413px;
   }
 
   .u-section-2 .u-shape-1 {
@@ -489,7 +484,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 3557px;
+    min-height: 3619px;
   }
 
   .u-section-2 .u-shape-1 {
@@ -514,6 +509,18 @@
     padding-right: 20px;
   }
 
+  .u-section-2 .u-text-1 {
+    animation-duration: 1000ms;
+  }
+
+  .u-section-2 .u-text-2 {
+    animation-duration: 1000ms;
+  }
+
+  .u-section-2 .u-btn-1 {
+    animation-duration: 1000ms;
+  }
+
   .u-section-2 .u-btn-2 {
     margin-top: -3025px;
     margin-left: auto;
@@ -522,7 +529,7 @@
 
   .u-section-2 .u-btn-3 {
     margin-top: 514px;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .u-section-2 .u-btn-4 {
@@ -536,12 +543,12 @@
   }
 
   .u-section-2 .u-btn-6 {
-    margin-top: 509px;
+    margin-top: 508px;
     margin-left: auto;
   }
 
   .u-section-2 .u-btn-7 {
-    margin-top: 515px;
+    margin-top: 516px;
     margin-left: auto;
   }
 }
